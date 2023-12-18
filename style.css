@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+}
+
+.block2 {
+  display: flex;
+}
+
+.block3 {
+  width: 66%;
+}
+
+.blockthree-four {
+  display: flex;
+}
+
+.first {
+  background-color: rgb(68, 24, 179);
+  width: 100%;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 0.5%;
+  height: 100px;
+}
+.two {
+  background-color: rgb(64, 59, 164);
+  width: 99%;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 0.5%;
+  height: 100px;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+}
+.three {
+  background-color: rgb(64, 59, 164);
+  width: 49.5%;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 0.5%;
+  height: 100px;
+  margin-left: 0.5%;
+}
+
+.four {
+  background-color: rgb(64, 59, 164);
+  width: 49.5%;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin: 0 0.5% 0.5% 0.5%;
+  height: 100px;
+}
+
+.block4 {
+  width: 34%;
+  margin-left: 0.25%;
+}
+.five {
+  margin-left: 0.25%;
+  height: 205px;
+  background-color: rgb(0, 64, 255);
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .block2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .block3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .block34 {
+    width: 100%;
+  }
+
+  .two {
+    width: 50%;
+  }
+  .three {
+    margin-left: 0.5%;
+    width: 66%;
+  }
+
+  .four {
+    width: 66%;
+  }
+
+  .block4 {
+    width: 100%;
+  }
+  .five {
+    width: 99%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .block3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .two {
+    width: 100%;
+  }
+}
+
+@media screen and (min-device-width: 100px) and (max-device-width: 600px) and (orientation: landscape) {
+  .block3 {
+    .block3 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .two {
+      width: 100%;
+    }
+    .block34 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .three {
+      width: 100%;
+    }
+    .four {
+      width: 100%;
+    }
+  }
+}
